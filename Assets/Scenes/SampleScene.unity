@@ -11887,6 +11887,7 @@ MonoBehaviour:
   fallThreshold: -2
   flashLight: {fileID: 127598594}
   boulder: {fileID: 1298658048}
+  boulder2: {fileID: 1618846889}
   deathMenu: {fileID: 1615828486}
 --- !u!114 &540099275
 MonoBehaviour:

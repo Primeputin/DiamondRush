@@ -10,20 +10,25 @@ public class VRRespawn : MonoBehaviour
     public Transform flashLight;
     private Vector3 flashLightPoint;
     public Transform boulder;
+    public Transform boulder2;
     private Vector3 boulderPoint;
+    private Vector3 boulder2Point;
     private Quaternion respawnRotation;
     private Quaternion flashLightRotation;
     private Quaternion boulderRotation;
+    private Quaternion boulder2Rotation;
     public GameObject deathMenu;
     void Start()
     {
         deathMenu.SetActive(false);
         respawnPoint = player.position;
         boulderPoint = boulder.position;
+        boulder2Point = boulder2.position;
         flashLightPoint = flashLight.position;
         respawnRotation = player.rotation;
         flashLightRotation = flashLight.rotation;
         boulderRotation = boulder.rotation;
+        boulder2Rotation = boulder2.rotation;
     }
 
     void Update()
@@ -50,6 +55,8 @@ public class VRRespawn : MonoBehaviour
         flashLight.rotation = flashLightRotation;
         boulder.position = boulderPoint;
         boulder.rotation = boulderRotation;
+        boulder2.position = boulder2Point;
+        boulder2.rotation = boulder2Rotation;
         // Optionally reset velocity if using a Rigidbody
         Rigidbody rb = player.GetComponent<Rigidbody>();
         if (rb != null)
