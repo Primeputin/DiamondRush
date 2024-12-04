@@ -16,10 +16,6 @@
 # Introduction
 ![alt text](game-image.png)
 This puzzle game project draws inspiration from the classic *Diamond Rush* and *Sokoban* games. Designed for an immersive virtual reality experience, this VR game challenges players to solve puzzles and reach specific goals. The game utilizes the controllers of the Meta Quest 2 and Meta Quest 3 for an engaging and intuitive gameplay experience.
-
-Supported Platforms:
-- Meta Quest 2
-- Meta Quest 3
 ---
 
 ## **Features**
@@ -38,6 +34,11 @@ Prerequisites:
 - Android SDK & NDK tools installed
 - Meta Quest Link installed on PC
 - Meta Developer Account
+
+Supported Platforms:
+- Meta Quest 2
+- Meta Quest 3s
+- Meta Quest 3
 
 To get the project through GitHub.
 
