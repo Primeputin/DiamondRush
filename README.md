@@ -35,7 +35,7 @@ Prerequisites:
 - Meta Quest Link installed on PC
 - Meta Developer Account
 
-Supported Platforms:
+Supported Platforms (build for android):
 - Meta Quest 2
 - Meta Quest 3s
 - Meta Quest 3
@@ -50,7 +50,7 @@ After that, open the add the project in UnityHub by adding the project from from
 
 
 ## Getting Started
-Open the project and make sure to add the appropriate scene (called SampleScene) to the hierarchy if no assets or environents shows up for a long while. After that, build the project as an apk.
+Open the project and make sure to add the appropriate scene (called SampleScene) to the hierarchy if no assets or environents shows up for a long while.
 
 Logging in to the headset with one's own meta account. Connect it to the Meta Quest Link app with the same meta account again with wire. Make sure the USB Debugging and developer mode on the headset is set on.
 - Setting developer mode to be on the headse using your phone to set the headset developer settings to be on. An alternative to this would be setting developer mode on through the settings in the headset itself.
@@ -58,7 +58,7 @@ Logging in to the headset with one's own meta account. Connect it to the Meta Qu
 - When a dialogue appears to enable link, click yes/confirm/enable.
 
 Before building, make sure to **disable the XR Device Simulator**.
-After those, build and run in the open project in Unity with the selected meta quest device. It must specified for it work. After that, the game should start running in the headset. Enjoy :)
+After those, build and run in the open project in Unity with the selected meta quest device. The platform should be for Android as selected for the build. It must specified for it work. After that, the game should start running in the headset. Enjoy :)
 
 ## Basic Controls
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
